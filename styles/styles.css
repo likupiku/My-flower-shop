@@ -243,3 +243,31 @@
     padding: 50px;
     border-radius: 50px 100px 100px 100px;
 }
+
+/* latest deal */
+
+.latest {
+
+    text-align: center;
+    background-image: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    margin-top: 128px;
+
+    margin-left: 240px;
+    margin-right: 240px;
+    /* width: 75%; */
+    height: 700px;
+}
+
+/* footer style */
+.footer {
+    background-color: #090808;
+    text-align: center;
+}
+
+.footer-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+}
