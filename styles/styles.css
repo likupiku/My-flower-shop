@@ -128,3 +128,38 @@
     width: 50%;
     margin-left: 120px;
 }
+
+/* gifts related style */
+.gifts {
+    background-color: rgb(243, 210, 248);
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.gifts-item {
+    display: flex;
+    /* margin-top: 50px; */
+    justify-content: space-around;
+    padding: 50px 50px 50px 100px;
+}
+
+.gifts-item1 {
+    width: 25%;
+}
+
+.gifts-item-name {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.gifts-price {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.gifts-description {
+    font-size: 60px;
+    font-weight: 800;
+}
