@@ -27,7 +27,7 @@
 }
 
 .header-title {
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 800px;
     margin-bottom: 0;
     margin-top: 200px;
@@ -134,7 +134,7 @@
     background-color: rgb(243, 210, 248);
     width: 100%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 128px;
     padding: 50px;
 }
 
@@ -162,4 +162,84 @@
 .gifts-description {
     font-size: 60px;
     font-weight: 800;
+}
+
+/* hot deal related style */
+.deals {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 128px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.deals-content {
+    padding: 200px;
+    text-align: center;
+}
+
+.deals-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+.deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    ;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.deals img {
+    margin-right: 200px;
+}
+
+/* instagram related style */
+.instagram {
+    text-align: center;
+}
+
+.instagram img {
+    margin-right: 24px;
+}
+
+/* review section style */
+.review {
+    background-color: #fab1ec;
+    background-image: url("../images/blue-flowers-with-macro-4-1400913-removebg-preview.png"), url("../images/pexels-photo-133464-removebg-preview.png");
+
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+    text-align: center;
+    padding: 0px 50px 100px 50px;
+    border-radius: 50px;
+
+}
+
+.review img {
+    width: 200px;
+    border-radius: 300px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.review-name {
+    font-size: 35px;
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+
+.review-content {
+    display: flex;
+    justify-content: center;
+}
+
+.review-info {
+    background: #c0b8ba;
+    padding: 50px;
+    border-radius: 50px 100px 100px 100px;
 }
